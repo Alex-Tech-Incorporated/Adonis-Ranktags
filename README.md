@@ -20,12 +20,49 @@ An Adonis Plugin adding Kronos-Style Ranktags
 ```
 
 ## Commands
-### `:setgroup`
+<details>
+<summary>`:setgroup`</summary>
+
+### Description
 Changes a Player's displayed Group on the Ranktag
 
-### `:HideRanktagGroups`
-Aliases: `:HideRanktagGroups`, `:HideRanktagData`
+### Usage
+`:setgroup AT`
+
+</details>
+
+<details>
+<summary>`:setgroup`</summary>
+
+### Description
+Changes a Player's displayed Group on the Ranktag
+
+### Usage
+`:setgroup AT` | In this case, "AT" is the Group's ArgName
+
+</details>
+
+<details>
+<summary>`:HideRanktagGroups`</summary>
+
+### Aliases
+`:HideRanktagGroups`, `:HideRanktagData`
+
+### Description
 Disables or Enables a Moderator's Group Rank and Groups to be displayed.
 
-### `:refreshranktag`
+### Usage
+`:HideRanktagGroups true` | This will hide a Moderator's displayed Groups
+
+</details>
+
+<details>
+<summary>`:refreshranktag`</summary>
+
+### Description
 Forcefully refreshes a Player's Ranktag
+
+### Usage
+`:refreshranktag Player1`
+
+</details>
