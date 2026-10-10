@@ -20,19 +20,9 @@ An Adonis Plugin adding Kronos-Style Ranktags
 ```
 
 ## Commands
-<details>
-<summary>`:setgroup`</summary>
-
-### Description
-Changes a Player's displayed Group on the Ranktag
-
-### Usage
-`:setgroup AT`
-
-</details>
 
 <details>
-<summary>`:setgroup`</summary>
+<summary>:setgroup</summary>
 
 ### Description
 Changes a Player's displayed Group on the Ranktag
@@ -43,7 +33,7 @@ Changes a Player's displayed Group on the Ranktag
 </details>
 
 <details>
-<summary>`:HideRanktagGroups`</summary>
+<summary>:HideRanktagGroups</summary>
 
 ### Aliases
 `:HideRanktagGroups`, `:HideRanktagData`
@@ -57,7 +47,7 @@ Disables or Enables a Moderator's Group Rank and Groups to be displayed.
 </details>
 
 <details>
-<summary>`:refreshranktag`</summary>
+<summary>:refreshranktag</summary>
 
 ### Description
 Forcefully refreshes a Player's Ranktag
