@@ -1,5 +1,5 @@
-# Ranktags Plugin
-An Adonis Plugin adding Kronos-Style Ranktags
+# Adonis Ranktags
+A Plugin for Adonis adding Kronos-Style Ranktags
 
 ## Setup
 1. Get the Plugin from [Github Releases](https://github.com/Alex-Tech-Incorporated/Ranktags-Plugin/releases)
