@@ -12,30 +12,21 @@ local Container
 --// Groups
 local Groups = {
 	{
-		Name = "Alex Tech Incorporated";
-		ArgName = "AT";
-		ID = 11404924;
-		TextColor3 = Color3.new(1, 1, 1);
-		MinRank = 1;
-		IconURI = "rbxassetid://78710756217426";
-		HideIcon = false;
+		Name = "EXAMPLE GROUP 1"; -- The displayed name of the Group
+		ArgName = "EXAMPLE1"; -- Used for the ;setgroup command and internal stuff
+		ID = 1234567; -- The Group's ID
+		TextColor3 = Color3.new(1, 1, 1); -- The Ranktag's TextColor for the player's rank within the Group
+		MinRank = 1; -- The minimum required Rank to display the Group
+		IconURI = "rbxassetid://15765548687"; -- This would use the Image set here via its ID
+		HideIcon = false; -- Hides the icon of the Group if true, the Group's name and your rank will still be displayed
 	},
 	{
-		Name = "Alex Tech Internal Affairs Department";
-		ArgName = "ATIAD";
-		ID = 35236008;
+		Name = "EXAMPLE GROUP 2";
+		ArgName = "EXAMPLE2";
+		ID = 1234567;
 		TextColor3 = Color3.new(1, 1, 1);
 		MinRank = 1;
-		IconURI = "rbxassetid://108636420053511";
-		HideIcon = false;
-	},
-	{
-		Name = "Alex Tech Security Division";
-		ArgName = "ATSD";
-		ID = 34124059;
-		TextColor3 = Color3.new(1, 1, 1),
-		MinRank = 3;
-		IconURI = "rbxassetid://121083515448077";
+		IconURI = nil; -- This would fetch the Group's Icon using GroupService
 		HideIcon = false;
 	},
 }
